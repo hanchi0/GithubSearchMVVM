@@ -8,7 +8,7 @@
 import Foundation
 
 struct SearchResponse: Codable {
-    var total_count: Int = 0
-    var incomplete_results: Bool = false
+    var totalCount: Int = 0
+    var incompleteResults: Bool = false
     var items: [Repository] = []
 }

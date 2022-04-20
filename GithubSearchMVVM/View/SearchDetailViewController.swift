@@ -20,8 +20,8 @@ class SearchDetailViewController: UIViewController {
         self.viewModel.repositoryPublisher
             .receive(on: DispatchQueue.main)
             .sink { [weak self] repository in
-                self?.navigationItem.title = repository.full_name
-                if let url = URL(string: repository.html_url) {
+                self?.navigationItem.title = repository.fullName
+                if let url = URL(string: repository.htmlUrl) {
                     self?.webView.load(URLRequest(url: url))
                 }
             }.store(in: &cancelBag)

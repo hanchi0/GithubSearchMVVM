@@ -15,7 +15,7 @@ class SearchTableViewCell: UITableViewCell {
     @IBOutlet weak var createdLabel: UILabel!
     
     func setData(data: Repository) {
-        nameLabel.text = data.full_name
+        nameLabel.text = data.fullName
         descriptionLabel.text = data.description
     }
 }

@@ -9,11 +9,11 @@ import Foundation
 
 struct Repository: Codable {
     let id: Int
-    let node_id: String
-    let full_name: String
+    let nodeId: String
+    let fullName: String
     let description: String?
     let url: String
-    let html_url: String
-    let created_at: String
-    let updated_at: String
+    let htmlUrl: String
+    let createdAt: String
+    let updatedAt: String
 }

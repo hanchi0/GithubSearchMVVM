@@ -1,0 +1,12 @@
+disabled_rules: # 비활성화 지정
+- trailing_whitespace
+    
+opt_in_rules: # 룰 활성화
+
+#only_rules: # 지정룰만 활성화
+
+#included: # 포함할 경로
+
+#excluded: # 무시할 경로
+
+line_length: 200
